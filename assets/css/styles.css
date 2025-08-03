@@ -275,9 +275,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 4rem;
+  column-gap: 3rem;
   margin-bottom: 2rem;
-  padding-right: 4rem;
 }
 
 .home__car-name{
@@ -528,7 +527,7 @@ img {
 }
 
 .features__img{
-  width: 150px;
+  width: 140px;
   justify-self: center;
 }
 
@@ -544,12 +543,12 @@ img {
 }
 
 .features__card-1{
-  top: 4rem;
+  /* top: 4rem; */
   left: 1.5rem;
 }
 
 .features__card-2{
-  top: 8rem;
+  top: 5.5rem;
   right: 1rem;
 }
 
@@ -572,7 +571,7 @@ img {
   width: 450px;
   position: absolute;
   top: 8rem;
-  left: -3rem;
+  /* left: -3rem; */
   margin: auto;
   transform: rotate(-22deg);
 }
@@ -599,6 +598,7 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   transition: .3s;
+  border-radius: 100%;
 }
 
 .featured__item img{
@@ -669,7 +669,7 @@ img {
 .featured__button{
   border: none;
   outline: none;
-  padding: 0.75rem 0.1rem;
+  padding: -1rem 0.1rem;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -993,6 +993,7 @@ img {
   }
   .home__car{
     column-gap: 7rem;
+    padding-right: 4rem;
   }
   .home__car-icon{
     font-size: 1.25rem;
